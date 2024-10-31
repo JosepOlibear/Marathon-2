@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts and Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <style>
+        body { font-family: 'Times', sans-serif; }
+        .navbar-brand, .footer { color: #333; }
+        .footer a { color: #007bff; text-decoration: none; }
+        .footer a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+            <img src="images/JOZ.webp" style="height: 30px;">
+        </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!-- About Section -->
+<section id="about" class="py-5 text-center" style=" background-image: url('images/cyclers.jpg'); background-size: cover; background-position: center;">
+    <div class="container">
+        <h2>About the Project</h2>
+        <p class="lead">TrekTribe is a web application that aims to help cyclists and runners find different routes and build connections with one another, encouraging more engagement in their activities.</p>
+        <img src="images/TrekTribe.png" class="img-fluid my-3" style="max-width: 100px;">
+    </div>
+</section>
+
+
+<!-- Features Section -->
+<section id="features" class="py-5 ">
+    <div class="container">
+        <h2 class="text-center mb-4">Core Features</h2>
+        <div class="row">
+
+            <!-- Feature 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="images/community post pic.webp" class="mb-3" style="width: 75px; height: auto;">
+                        <h5 class="card-title">Feature One</h5>
+                        <p class="card-text">Share your travel experiences by posting images along with captivating descriptions!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="images/gamefied exp.webp" class="mb-3" style="width: 75px; height: auto;">
+                        <h5 class="card-title">Feature Two</h5>
+                        <p class="card-text">Embark on adventures and earn XP as you explore, leveling up in the process!</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Feature 3 -->
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="images/personalized tracks.webp" class="mb-3" style="width: 75px; height: auto;">
+                        <h5 class="card-title">Feature Three</h5>
+                        <p class="card-text">Discover generated tracks nearby, tailored to your preferred difficulty level for an exciting journey!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery" class="py-5 bg-info">
+    <div class="container">
+        <h2 class="text-center mb-4">Gallery</h2>
+        <div class="row">
+            <div class="col-lg-4 mb-3"><img src="images/landing page.jpg" class="img-fluid rounded"></div>
+            <div class="col-lg-4 mb-3"><img src="images/generate maps.jpg" class="img-fluid rounded"></div>
+            <div class="col-lg-4 mb-3"><img src="images/profile.jpg" class="img-fluid rounded"></div>
+            <div class="col-lg-4 mb-3"><img src="images/community post.jpg" class="img-fluid rounded"></div>
+            <div class="col-lg-4 mb-3"><img src="images/leaderboards.jpg" class="img-fluid rounded"></div>
+            <div class="col-lg-4 mb-3"><img src="images/bugs.jpg" class="img-fluid rounded"></div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Contact Me</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer py-3 ">
+    <div class="container text-center">
+        <p>Contact me at <a href="mailto:jozmangabang18@gmail.com">jozmangabang18@gmail.com</a> | Follow me on:
+            <a href="https://www.facebook.com/joseph.oliver.758"><i class="fab fa-facebook-f"></i></a> 
+            <a href="https://www.instagram.com/_josepolibear/"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/JosepOlibear"><i class="fab fa-github"></i></a> 
+        </p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
